@@ -78,6 +78,6 @@ jobs:
    
       env:
         user: ${{secrets.unicom_user3}}
-        password: ${{secrets.unicom_password3}}
+        password: ${{secrets.unicom_password}}
         appid: ${{secrets.unicom_appid}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
